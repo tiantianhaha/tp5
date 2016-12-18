@@ -1,0 +1,27 @@
+[ 2016-12-18T13:18:01+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20161214/44a6c234f15cea30cfb7561df83d2b4b.jpg
+[ log ] www.tp5.com/uploads/20161214/44a6c234f15cea30cfb7561df83d2b4b.jpg [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：1,356.30kb] [文件加载：42]
+[ info ] [ LANG ] E:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20161214',
+    2 => '44a6c234f15cea30cfb7561df83d2b4b.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tp5.com/index/article/article.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Huiskin=default; Hm_lvt_080836300300be57b7f34f4b3e97d911=1481699645,1481773100,1481791950,1481826385; PHPSESSID=3bf80e0plpo7924r7m5t3f5kk3; Hm_lvt_ca0cd3424b3d97d1671da2b5a4dbe92d=1481825584,1481852748,1482032085,1482037421; Hm_lpvt_ca0cd3424b3d97d1671da2b5a4dbe92d=1482038240',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

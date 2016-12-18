@@ -1,0 +1,47 @@
+﻿/*做无用之事*/
+.release .s_tit{ background:url(../images/fill_title4_2.png) no-repeat; width:298px; height:20px;}
+/*全部状态标题*/
+.allStatusTit{ font-size:16px; color:#434343; border-bottom:1px solid #ececec; margin:30px 34px 0px 35px; padding-bottom:20px;}
+.allStatusTit a{ color:#434343; margin-right:20px;}
+.allStatusTit .cur{ color:#50c8d7;}
+.allStaTitleli{ font-size:16px; color:#3d3d3d;}
+.allStaTitleli li{ line-height:40px; height:40px; padding-left:40px; cursor:pointer;}
+.allStaTitleli li:hover{ color:#50c8d7;}
+.allStaTitleli li.cur{ color:#50c8d7; background:#535353; }
+/*标签页标题*/
+.tagStatusTit{ font-size:20px; color:#626262; border-bottom:1px solid #ececec; margin:30px 34px 0px 35px; padding-bottom:20px;}
+.tagStatusTit i{ background:url(../images/icos_2.png) -161px 0px no-repeat; width:18px; height:14px; position:relative; top:2px; margin-right:4px;}
+/*热门标签*/
+.status_hotTag{ width:108%;}
+.status_hotTag a{ font-size:12px; color:#fff; background:#aaa; border-radius:15px; padding:1px 9px; margin:0px 5px 10px 0px;}
+.status_hotTag a:hover{ text-decoration:none; background:#3d3d3d;}
+/*为你推荐*/
+.exper_Officer{ width:312px; position:relative;}
+.exper_Officer h1{ color:#3d3d3d; font-size:18px; padding:28px 0px 13px 30px;}
+.exper_Officer .offficerList{ padding-bottom:20px;}
+.exper_Officer .offficerList li{ padding:7px 0px 4px 30px; position:relative;}
+.exper_Officer .offficerList li .model_imgFloat{ left:25px; top:65px;}
+.exper_Officer .offficerList li .model_imgFloat .f_san{ left:29px;}
+.exper_Officer .offficerList li:hover{ background:#f2f2f2;}
+.exper_Officer .offficerList li .headImg{ width:50px; height:50px; border-radius:100px; border:2px solid #ddd;}
+.exper_Officer .offficerList li .nameBox{ margin:0px 0px 0px 12px; width:200px;}
+.exper_Officer .offficerList li .nameBox .nameO{ font-size:15px; color:#535353;}
+.exper_Officer .offficerList li .nameBox .sign{ font-size:13px; color:#959595;}
+/*热门标签*/
+.newUser{ padding:0px 34px 16px 35px;}
+.newUser h1{ font-size:18px; padding-left:0px; color:#3d3d3d; padding-bottom:20px;}
+.userList li{ float:left; margin:0px 19px 10px 0px; position:relative;}
+.userList li.clemr{ margin-right:0px;}
+.userList li img{ width:46px; height:46px; border-radius:100px;}
+.userList li .showName{ display:none; position:absolute; top:46spx; left:3px; width:500%; z-index:1;}
+.userList li .showName .name{ background:#000; font-size:12px; color:#fff; padding:3px 8px; border-radius:2px; box-shadow:1px 0px 1px #000;}
+.userList li .showName .san{ background:url(../images/name_ico_2.png) no-repeat; width:13px; height:4px; position:absolute; top:-6px; left:15px;}
+/*参与的体验*/
+.partakeBox{ font-size:13px; color:#aaa; margin-bottom:16px;}
+.partakeBox a{ text-shadow:1px 1px 1px #b7cdda; color:#fff; background:#b7cdda; border-radius:3px; padding:1px 6px; margin-left:5px;}
+.partakeBox a:hover{ text-decoration:none; background:#a4c2d4;}
+.fillExper_left2 .commentTag{ padding-top:20px;}
+.fillExper_left2 .commentTag a{ color:#434343;}
+.fillExper_left2 .commentTag .cur a{ color:#fff;}
+/*加广告位*/
+.status_advert{ margin:0px 0px 0px 30px;}

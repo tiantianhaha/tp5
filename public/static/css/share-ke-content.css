@@ -1,0 +1,15 @@
+
+/* ke-content */
+.ke-content {
+	padding:10px 15px;
+	font-family:"微软雅黑";
+	color:#535353;
+	font-size:14px;
+}
+
+.ke-content p{
+	line-height: 27px;
+	word-break: normal;
+	word-wrap: break-word;
+	padding-bottom: 10px;
+}

@@ -1,0 +1,73 @@
+/*消息中心*/
+.bgeb2{ background:#eaeaea; padding:60px 0px 150px 0px;}
+.siXin{ background:#fbfbfc; border:1px solid #e1e1e1; width:798px;}
+.siXin .per_taRight{ margin:0px 0px 200px 78px; margin-top:-73px;}
+.newsCenter_tit{ font-size:24px; color:#3d3d3d; top:40px; left:18px; position:relative;}
+.newsCenter_tit .ico{ width:19px; height:21px; background:url(../images/person/icoPng.png) -181px -22px no-repeat; display:inline-block; position:relative; top:2px; padding-right:8px;}
+.newsCenter_tit .span{ color:#959595; font-size:15px; padding-left:5px; position:relative; top:-2px;}
+.newsCenter_tit .span .num{ color:#ff6e68;}
+.newsCenter_tit .newDian{ left:11px; top:-1px; display:inline-block; position:absolute; width:6px; height:6px; border-radius:10px; background:#e76049;}
+.newsCenter_tab{ margin:56px 0px 25px 0px;}
+.newsCenter_tab .tab_title{ position:relative; top:1px; }
+.newsCenter_tab .tab_title li{ float:left; font-size:13px; color:#959595; margin-right:38px; }
+.newsCenter_tab .tab_title li .red{ color:#fc6e51;}
+.newsCenter_tab .tab_title li a{ color:#3d3d3d; display:inline-block;}
+.newsCenter_tab .tab_title li a.cur{ background:#eaeaea; padding:4px 10px; position:relative; top:-4px; color:#464646;} 
+.newsCenter_tab .tab_title li a.cur .red{ color:#ff6e68;}
+.newsCenter_tab .tab_title li a:hover{ text-decoration:none;}
+.newsCenter_tab .tab_title ul{ margin:0px 0px 0px 52px;}
+.newsCenter_tab .tab_title .right{ float:right; font-size:13px; color:#707070; margin:0px 47px 0px 0px;}
+.newsCenter_tab .tab_title .right a{ color:#707070;}
+/*全部消息*/
+.newsCenter_message{ padding-bottom:50px;}
+.newsCenter_message ul{ color:#7d7d7d; font-size:13px; margin-top:15px; padding-bottom:30px; border-top:1px solid #ebebeb;}
+.newsCenter_message li{ overflow:hidden; border-bottom:1px solid #ebebeb; padding:23px 5px 20px 50px; cursor:pointer; position:relative;}
+.newsCenter_message li:hover{ background:#efefef; }
+.newsCenter_message li .time{ font-size:12px; color:#959595; margin:0px 2px 0px 0px; position:relative; top:2px;}
+.newsCenter_message li .hulue{ display:none; font-size:13px; color:#a0a0a0; position:absolute; top:30px; right:48px;}
+.newsCenter_message li .huifu{ font-size:13px; color:#a0a0a0; position:absolute; top:30px; right:48px;}
+.newsCenter_message li .left{ width:560px; margin:8px 0px 0px 23px;}
+.newsCenter_message li a{ text-decoration:none; }
+.newsCenter_message li.clickStr{ cursor:pointer;}
+.newsCenter_message li.huiHulue a{ color:#535353;}
+.newsCenter_message li .Newtitle{ color:#959595;}
+.newsCenter_message li .Oldtitle{ color:#50c8d7;}
+.newsCenter_message li .headImg{ width:53px; height:53px; border-radius:100px;}
+.newsCenter_message li .acronymView{ width:75px; height:48px; margin:5px 0px 5px 0px;}
+.newsCenter_message li .acronymView .video{ width:75px; height:48px; background:url(../images/icos/info_video.png) no-repeat;}
+/*没有消息*/
+.noMessage{ font-size:20px; color:#a0a0a0; text-align:center; border-top:1px solid #ebebeb; margin-top:15px; padding:168px 0px 287px 0px;}
+/*私信-回复*/
+.privateLetter{ border-bottom:1px solid #ebebeb; padding:35px 0px 28px 53px; }
+.privateLetter h1{ font-size:24px; color:#3d3d3d;}
+.privateLetter h1 a{ color:#3d3d3d;}
+.privateLetter p{ font-size:14px; color:#464646; margin:13px 0px 0px 17px;}
+.newsCenter_reply{ padding:40px 0px 34px 0px; width:600px; margin:0px auto;}
+.newsCenter_reply .top_text{ font-size:13px; color:#464646;}
+.newsCenter_reply .top_text p{ width:455px;}
+.newsCenter_reply .top_text span{ font-size:12px;}
+.newsCenter_reply .top_text span .red{ color:#ff6e68;}
+.newsCenter_reply .reply_tarea{ background:#ededef; width:580px; height:58px; padding:10px; margin:13px 0px 11px 0px; display:block; resize:none; outline: medium none;}
+.newsCenter_reply .reply_btnBox{ float:right; }
+.newsCenter_reply .reply_btnBox p{ width:100px; height:35px; border:2px solid #ececec; border-radius:3px;}
+.newsCenter_reply .reply_btnBox a{ border:1px solid #47c0d0; font-size:13px; text-shadow:0px 0px 1px #8cd7e2; width:98px; height:33px; line-height:33px; text-align:center; color:#fff; background:#50c8d7; border-radius:3px; display:inline-block;}
+.newsCenter_reply .reply_btnBox a:hover{ text-decoration:none; background:#72d8e5; border:1px solid #65cfde;}
+.newsCenter_reply .reply_btnBox a:active{ box-shadow:inset 0px 2px 3px #088e9e; background:#50c8d7; border:1px solid #3ed5e2; }
+.newsCenter_reply .dialogue{ padding:47px 0px;}
+.newsCenter_reply .dialogue li{ width:586px; padding-bottom:20px; margin-bottom:20px;}
+.newsCenter_reply .dialogue li.wo .headImg{ width:52px; height:52px; border-radius:100px; box-shadow:0px 1px 1px #cececf; position:relative; left:10px; margin-top:3px;}
+.newsCenter_reply .dialogue li.wo .woSpeak{ color:#fff; background:#50c8d7; padding:18px 20px 20px 20px; border-radius:8px; position:relative; box-shadow:0px 1px 2px #e4e4e5; margin-right:16px; max-width:387px;}
+.newsCenter_reply .dialogue li.wo .woSpeak .ico{ position:absolute; width:11px; height:21px; display:inline-block; background:url(../images/person/icoPng.png) -189px -129px; right:-11px; top:20px;}
+.newsCenter_reply .dialogue li.wo .woSpeak p{ font-size:13px; line-height:19px; word-break:break-all; }
+.newsCenter_reply .dialogue li.wo .woSpeak p a{ color:#fff; text-decoration:underline;}
+
+.newsCenter_reply .dialogue li.lastTime{ text-align:center; padding-bottom:0px; position:relative; top:6px;}
+.newsCenter_reply .dialogue li.lastTime .timeInfo{ font-size:12px; color:#959595; display:block;  }
+.newsCenter_reply .dialogue li.lastTime .timeInfo .t{ width:13px; height:13px; display:inline-block; background:url(../images/person/icoPng.png) -187px -187px no-repeat; position:relative; top:2px; margin-right:7px;}
+
+.newsCenter_reply .dialogue li.ta .headImg{ width:52px; height:52px; border-radius:100px; box-shadow:0px 1px 1px #cececf; margin-top:3px;}
+.newsCenter_reply .dialogue li.ta .taSpeak{ color:#464646; background:#ededef; max-width:396px; padding:16px 20px 20px 20px; border-radius:8px; margin-left:29px; position:relative; box-shadow:0px 1px 3px #c6c6c8;}
+.newsCenter_reply .dialogue li.ta .taSpeak .ico{ position:absolute; width:11px; height:22px; display:inline-block; background:url(../images/person/icoPng.png) -189px -155px; left:-11px; top:20px;}
+.newsCenter_reply .dialogue li.ta .taSpeak p{ font-size:13px; line-height:19px; word-break:break-all;}
+.newsCenter_reply .dialogue li.ta .taSpeak p a{ text-decoration:underline;}
+.newsCenter_reply .dialogue li.ta .taSpeak span{ font-size:12px; color:#959595; display:block; padding-top:8px;}
